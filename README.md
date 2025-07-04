@@ -17,7 +17,7 @@ export_users
 ## 📦 انتقال فایل:
 
 ```bash
-scp -P 8181 /tmp/user_export/users_backup.tar.gz user@NEW_SERVER_IP:/tmp/
+scp -P 22 /tmp/user_export/users_backup.tar.gz user@NEW_SERVER_IP:/tmp/
 ```
 
 ## 📥 در سرور مقصد:
