@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "[*] نصب userclone در حال انجام است..."
+echo "[*] Installing..."
 
 INSTALL_DIR="/usr/local/bin"
 TMP_DIR="/tmp/userclone_install_$$"
@@ -18,6 +18,6 @@ sudo mv "$TMP_DIR/import_users.sh" "$INSTALL_DIR/import_users"
 
 rm -rf "$TMP_DIR"
 
-echo "[+] نصب کامل شد. حالا می‌تونید از دستورات زیر استفاده کنید:"
+echo "[+] The package has been installed successfully. Now you can run the following commands:"
 echo "    ➤ export_users"
 echo "    ➤ import_users"
